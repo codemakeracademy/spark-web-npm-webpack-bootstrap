@@ -1,0 +1,43 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@webpack-cli/generators": "2.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.0",
+    "sass": "^1.34.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voop87/spark-web-npm-webpack-bootstrap.git"
+  },
+  "author": "Ruslan Mansurov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voop87/spark-web-npm-webpack-bootstrap/issues"
+  },
+  "homepage": "https://github.com/voop87/spark-web-npm-webpack-bootstrap#readme"
+}
