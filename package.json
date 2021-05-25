@@ -1,0 +1,23 @@
+{
+  "name": "test_package",
+  "version": "1.0.0",
+  "description": "npm and bootstrap training. Wish me good luck!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sigma-UP/spark-web-npm-webpack-bootstrap.git"
+  },
+  "author": "Bezslyozniy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sigma-UP/spark-web-npm-webpack-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Sigma-UP/spark-web-npm-webpack-bootstrap#readme",
+  "dependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
