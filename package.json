@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/NKaty/spark-web-npm-webpack-bootstrap/issues"
   },
-  "homepage": "https://github.com/NKaty/spark-web-npm-webpack-bootstrap#readme",
+  "homepage": "https://github.com/NKaty/spark-web-npm-webpack-bootstrap",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
