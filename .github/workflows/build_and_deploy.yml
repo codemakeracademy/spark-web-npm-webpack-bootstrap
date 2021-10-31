@@ -13,7 +13,7 @@ jobs:
           npm run build
 
       - name: Deploy
-        uses: Xander11rgn/spark-web-npm-webpack-bootstrap/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
           folder: dist
