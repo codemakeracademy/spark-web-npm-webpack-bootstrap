@@ -4,6 +4,7 @@
   "description": "My webpack project",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
@@ -13,6 +14,7 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https:/Narteno.github.io/spark-web-npm-webpack-bootstrap",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
