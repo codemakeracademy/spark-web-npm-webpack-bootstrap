@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+/.vs/spark-web-npm-webpack-bootstrap/v16/.suo
+
+#Visual Studio config dir
+.vs/
