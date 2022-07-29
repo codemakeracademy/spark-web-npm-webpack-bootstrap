@@ -11,9 +11,11 @@ console.log(mode + " mode");
 module.exports = {
   mode: mode,
   output: {
+    filename: "[name].[contenthash].js",
     assetModuleFilename: "assets/[hash][ext][query]",
     clean: true,
   },
+  devtool: "source-map",
   plugins: [
     new MiniCssExtractPlugin({
       filename: "[name].[contenthash].css"
