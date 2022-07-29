@@ -1,0 +1,15 @@
+$primaryColor: darkcyan;
+$secondaryColor: darkslategrey;
+
+h1 {
+  color: $primaryColor;
+}
+
+.container {
+  &__subtitle {
+    color: $secondaryColor;
+    display: block;
+    height: 300px;
+    background: url("../images/webpack.png");
+  }
+}
