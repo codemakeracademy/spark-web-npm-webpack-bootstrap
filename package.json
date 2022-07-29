@@ -1,0 +1,23 @@
+{
+  "name": "spark-web-npm-webpack-bootstrap",
+  "version": "1.0.0",
+  "description": "Creating a project with a test page that uses npm, webpack, and bootstrap library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kundro/spark-web-npm-webpack-bootstrap.git"
+  },
+  "author": "Alexey Kundro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kundro/spark-web-npm-webpack-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Kundro/spark-web-npm-webpack-bootstrap#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
