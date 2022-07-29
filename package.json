@@ -1,0 +1,28 @@
+{
+  "name": "spark-web-npm-webpack-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&webpack serve --open",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhilovAstemir/spark-web-npm-webpack-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhilovAstemir/spark-web-npm-webpack-bootstrap/issues"
+  },
+  "homepage": "https://github.com/ZhilovAstemir/spark-web-npm-webpack-bootstrap#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
