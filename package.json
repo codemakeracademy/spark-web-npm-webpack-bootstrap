@@ -17,6 +17,7 @@
   "name": "my-webpack-project",
   "description": "My webpack project",
   "version": "1.0.0",
+  "homepage": "https://alevshinskii.github.io/spark-web-npm-webpack-bootstrap",
   "main": "index.js",
   "dependencies": {
     "acorn": "^8.8.0",
@@ -46,6 +47,7 @@
     "fastest-levenshtein": "^1.0.14",
     "find-up": "^4.1.0",
     "function-bind": "^1.1.1",
+    "gh-pages": "4.0.0",
     "glob-to-regexp": "^0.4.1",
     "graceful-fs": "^4.2.10",
     "has": "^1.0.3",
@@ -118,6 +120,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alevshinskii/spark-web-npm-webpack-bootstrap/issues"
-  },
-  "homepage": "https://github.com/alevshinskii/spark-web-npm-webpack-bootstrap#readme"
+  }
 }
