@@ -1,4 +1,5 @@
-name: CI
+name: .github/workflows/main.yml
+
 
 on:
   push:
@@ -20,15 +21,15 @@ jobs:
         
         with:
           node-version: 12.x
+          
         run: |
           npm i
           npm run build
 
       - name: Deploy to GitHub Pages
-
-
-        uses: ZhilovAstemir/github-pages-deploy-action@v4.4.0
-  
+      
+        uses: JamesIves/github-pages-deploy-action@v4
+        
         with:
   
           folder: dist
