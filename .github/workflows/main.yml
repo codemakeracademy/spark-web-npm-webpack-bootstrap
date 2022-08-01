@@ -12,17 +12,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.4.1
+
         with:
 
-          node-version: 16.x
-      - run: npm ci
-      - run: npm run build --if-present
+          node-version: 12.x
+
+      - name: Install and Build
+        run: |
+          npm i
+          npm run build
+
+      - name: Deploy to GitHub Pages
 
 
   uses: ZhilovAstemir/github-pages-deploy-action@v4.4.0
   with:
-    branch: main
     older: dist
