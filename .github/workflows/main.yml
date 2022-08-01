@@ -30,9 +30,11 @@ jobs:
           node-version: 16.x
       - run: npm ci
       
-      - run: npm run build --if-present
+      - run: npm run build
       
       - run: npm test
+      
+      - run: npm run serve
       
       - name: Deploy to GitHub Pages
   # You may pin to the exact commit or the version.
