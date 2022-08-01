@@ -27,21 +27,19 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
-          node-version: 16.x
+          node-version: 12.x
       - run: npm ci
       
       - run: npm run build
       
       - run: npm test
-      
-      - run: npm run serve
-      
+            
       - name: Deploy to GitHub Pages
   # You may pin to the exact commit or the version.
   # uses: JamesIves/github-pages-deploy-action@13046b614c663b56cba4dda3f30b9736a748b80d
   uses: JamesIves/github-pages-deploy-action@v4.4.0
   with:
     # This is the branch you wish to deploy to, for example gh-pages or docs.
-    branch: master
+    branch: add_test_page
     # The folder in your repository that you want to deploy. If your build script compiles into a directory named build you would put it here. Folder paths cannot have a leading / or ./. If you wish to deploy the root directory you can place a . here.
     folder: public
