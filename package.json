@@ -12,7 +12,8 @@
     "webpack-dev-server": "4.9.3"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "gh-pages": "4.0.0"
   },
   "name": "my-webpack-project",
   "description": "My webpack project",
