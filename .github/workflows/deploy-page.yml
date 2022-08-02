@@ -1,21 +1,29 @@
 name: Publishing the test page to GitHub Pages
-on: [push]
-permissions:
-  contents: write
+on:
+  push:
+    branches: [ "feature/add-test-page-github" ]
+
+  workflow_dispatch:
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3.4.1
+
+        with:
+          # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
+          node-version: 12.x
+
       - name: Install and Build
         run: |
-          npm ci
+          npm i
           npm run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
-          folder: build
+          folder: dist
