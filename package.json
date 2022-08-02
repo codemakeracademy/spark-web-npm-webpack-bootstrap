@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/Stormhead77/spark-web-npm-webpack-bootstrap#readme",
   "dependencies": {
-    "bootstrap": "5.2.0"
+    "bootstrap": "5.2.0",
+    "gh-pages": "4.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
