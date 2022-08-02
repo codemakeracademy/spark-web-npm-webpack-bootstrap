@@ -2,7 +2,7 @@ name: Publishing the test page to GitHub Pages
 on:
   push:
     branches:
-      - feature-add-test-page
+      - feature/add-test-page-github
   workflow_dispatch:
 jobs:
   build-and-deploy:
