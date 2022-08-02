@@ -37,6 +37,7 @@
     "webpack-dev-server": "4.9.3"
   },
   "dependencies": {
-    "bootstrap": "5.2.0"
+    "bootstrap": "5.2.0",
+    "scss-loader": "0.0.1"
   }
 }
